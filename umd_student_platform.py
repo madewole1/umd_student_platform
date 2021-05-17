@@ -102,7 +102,27 @@ class Student:
           print('You have not taken MATH 115 or higher.')
         if psych_flag == False:
           print('You have not taken PSYC 100.')
-  
+        
+  #starts on line 81, try this if the above doesn't work.
+        #return ct
+
+
+    #def benchmark_I(self):
+      
+      #math_115 = 'MATH 115'
+      #psyc_100 = 'PSYC 100'
+      
+      #if math_115 and psyc_100 not in self.ct:
+        #print('You have not completed the Benchmark I requirements.')
+      #elif math_115 and psyc_100 in self.ct:
+        #print(f'You have completed all of your Benchmark I courses! ' +
+              #f'Congratulations, {self.student_name}!')
+      #elif math_115 not in self.ct:
+        #print('You have not taken MATH 115 or higher.')
+      #elif psyc_100 not in self.ct:
+        #print('You have not taken PSYC 100.')
+      #else:
+        #None
 
     def benchmark_II():
       """
